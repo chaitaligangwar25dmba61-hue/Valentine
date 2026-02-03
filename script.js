@@ -11,8 +11,8 @@ const finalText = document.getElementById("final-text");
 
 // Click Envelope
 
-envelope.addEventListener("click", () => {
-    envelope.style.display = "none";
+container.addEventListener("click", () => {
+    container.style.display = "none";
     letter.style.display = "flex";
 
     setTimeout( () => {
